@@ -49,7 +49,7 @@ function initializeEditor(content, blocks, thumbPathConverter, galleryUrl, conte
     debug: ko.observable(false),
     contentListeners: ko.observable(0),
     
-    logoPath: 'rs/img/sendock32.png',
+    logoPath: 'rs/img/mosaico32.png',
     logoUrl: '.',
     logoAlt: 'mosaico'
   };
