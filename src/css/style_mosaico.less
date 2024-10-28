@@ -548,3 +548,10 @@ i.mce-i-newsletter-profile:before {
     > div { width: 100% }
   }
 }
+// prevent misuse, images will be removed anyway
+.tool.upload, .tool.gallery, .workzone, span.fileuploadtext, .mo-uploadzone, .mo-imgselectionhelper {
+    display: none !important;
+}
+table.img-wysiwyg {
+    pointer-events: none !important;
+}
